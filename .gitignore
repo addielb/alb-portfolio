@@ -3,3 +3,4 @@ node_modules
 bundle.js
 dist/bundle.js
 dist/bundle.js.LICENSE.txt
+.env

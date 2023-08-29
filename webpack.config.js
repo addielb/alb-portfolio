@@ -9,19 +9,19 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js|jsx$/i,
+        test: /\.js|jsx$/,
         include: path.resolve(__dirname, 'src'),
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'],
+            presets: ['@babel/preset-env', '@babel/preset-react'],
           },
         },
       },
       {
-        test: /\.css$/i,
-        include: path.resolve(__dirname, 'src'),
+        test: /\.css$/,
+        include: path.resolve(__dirname, 'dist'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
     ],

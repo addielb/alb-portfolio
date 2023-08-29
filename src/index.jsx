@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import '../dist/output.css';
 
 function App() {
   return (
-    <div>
-      <button className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
-        Small
-      </button>
+    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
+      <h1 class="text-3xl font-bold underline">
+        Hello world!
+      </h1>
     </div>
   )
 }
