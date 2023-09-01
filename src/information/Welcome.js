@@ -1,5 +1,5 @@
 export const welcomeMessages = {
-  intro: "I'm glad you're here! Whether you are family, a colleague, or a potential employer, I hope you find something interesting here.",
+  intro: "I'm glad you're here! I'm Addie Lopshire-Bratt, a fullstack software engineer and artist when I'm away from the computer.",
   strengthsHeader: "What I Bring to the Table:",
   strengths: [
     "Expertise in both frontend and backend development.",
@@ -7,6 +7,7 @@ export const welcomeMessages = {
     "A track record of bringing innovative concepts to life from dynamic web applications to robust databases.",
     "A commitment to continuous learning, staying up-to-date with the latest industry trends and best practices."
   ],
+  // I have decided against using the directory line, it takes up too much space
   directory: [
     "For examples of my software work, please check out the 'Software Projects' page for detailed explanations of my experience.",
     "For some insight into my career up to this point, hop over to the 'Work History' page for stories and pictures of my wide-ranging experience from veterinary medicine to music.",
