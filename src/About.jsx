@@ -15,7 +15,7 @@ function About() {
       <div>
         {aboutInfo.softwareEngineer.map((paragraph) => {
           return (
-          <p className="mt-5 text-3xl text-justify">
+          <p className="mt-5 text-2xl text-justify">
             {paragraph}
           </p>
           )
@@ -29,7 +29,7 @@ function About() {
       <div>
         {aboutInfo.personal.map((para) => {
           return (
-            <p className="mt-5 text-3xl text-justify">
+            <p className="mt-5 text-2xl text-justify">
               {para}
             </p>
           )
