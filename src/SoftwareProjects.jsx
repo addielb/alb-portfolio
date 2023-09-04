@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SoftwareProjectBlurb from './SoftwareProjectBlurb.jsx';
+
 function SoftwareProjects() {
   return (
     <div>

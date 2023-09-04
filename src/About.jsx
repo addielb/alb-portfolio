@@ -15,16 +15,25 @@ function About() {
       <div>
         {aboutInfo.softwareEngineer.map((paragraph) => {
           return (
-          <p className="mt-5 text-3xl">
+          <p className="mt-5 text-3xl text-justify">
             {paragraph}
           </p>
           )
         })}
       </div>
       <div>
-        <img className="rounded-full mb-5" src="https://avatars.githubusercontent.com/u/111605723?v=4"/>
+        <img className="rounded-full mb-5" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xzOTzqY5KwmWjISyf3JBfp3hCqSmtY1HHWkQXh7qeP9JldvDU1cr0zRDEKvfZv9A92YdkBL4_ggUDKkV6uRXLLRBbryg=s2560"/>
         <img className="rounded-full mb-5" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xq228I-KoX-kfMwQT8bXQxzCGFoHT44fxRGRpFcCZFayyLzPWBP1knp6bys5HaiHaPD7bv1uhY3Rqb5fTYYiPxb63Y9Q=s1600"/>
         <img className="rounded-full" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-yTDFxx1TwfuB3dLiYe7KDtlFBlYS8g-z-KRVz8S5KMpmpxijPQfGGpa0EczhllP4jiGq8ogtUrKwl0olOtONGH2yNvRg=s1600"/>
+      </div>
+      <div>
+        {aboutInfo.personal.map((para) => {
+          return (
+            <p className="mt-5 text-3xl text-justify">
+              {para}
+            </p>
+          )
+        })}
       </div>
     </div>
   )
