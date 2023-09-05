@@ -18,7 +18,7 @@ export const projects = [
     link: 'https://github.com/TeamEquinox/FEC',
     description: 'With a team of four engineers, we updated the product overview page for a clothing retailer. Using React, Express, and JavaScript we improved the page and built a custom React Hook to track Real User Metrics (RUM).',
     role: 'Frontend Engineer',
-    gifLink:
+    gifLink: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-znZbtq6BDBy71ARbtxuWkOju7cLGA4F1AL8inp8G6pzE-lACf1ColEVec0pflevjdVXPE9dpNNJUiHuLwfIo_NURGLiQ=s1600'
 
   }
 ]
