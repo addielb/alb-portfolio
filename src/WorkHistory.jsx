@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkHistoryBlurb from './WorkHistoryBlurb.jsx';
 
-const WorkHx = require('./information/WorkHx.js');
+const { WorkHx } = require('./information/WorkHx.js');
 
 function WorkHistory() {
   return (
@@ -12,15 +12,18 @@ function WorkHistory() {
       <p>
         In order of most interesting, these are some of the industries I've worked in and gained invaluable experience across many disciplines.
       </p>
-      {WorkHx.map((work) => {
-        return <WorkHistoryBlurb
-          industry={work.industry}
-          roles={work.roles}
-          skills={work.skills}
-          pictures={work.pictures}
-          askAbout={work.askAbout}
-        />
-      })}
+      <div>
+        {WorkHx.map((work) => {
+          console.log('in work history')
+          return <WorkHistoryBlurb
+            industry={work.industry}
+            roles={work.roles}
+            skills={work.skills}
+            pictures={work.pictures}
+            askAbout={work.askAbout}
+          />
+        })}
+      </div>
     </div>
   )
 }

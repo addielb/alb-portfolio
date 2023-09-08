@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import WorkHistoryRole from './WorkHistoryRole.jsx';
 
 function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
   return (
@@ -6,7 +7,11 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
       <h2>{industry}</h2>
       <div>
         {roles.map((role) => {
-          return (<div></div>)
+          return (<WorkHistoryRole
+            title={role.title}
+            business={role.business}
+            bullets={role.bullets}
+          />)
         })}
       </div>
       <ul>
@@ -27,7 +32,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
       </div>
       <div>
         {pictures.map((pic) => {
-          return <img src={pic}/>
+          return <img src={pic.url}/>
         })}
       </div>
     </div>
