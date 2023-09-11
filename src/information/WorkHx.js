@@ -4,7 +4,7 @@ export const WorkHx = [
     roles: [
       {
         title: 'Technical Intern',
-        business: 'Starstruck',
+        business: 'Starstruck Entertainment',
         bullets: [
           'Collaborated with technical manager to fix misfiring and broken technology--hardware and software',
           'Modified exisisting hardware and built new cables and microphones to meet recording needs',
@@ -46,17 +46,17 @@ export const WorkHx = [
     ],
     pictures: [
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-xkxFFw2WGO-XwyiicMOqyM3s3u9JBBphsOYz__19-xX7FeEIOm-CJOuL52MxCodTBmGxbsshi_JXBDSRM02E_GMTIg=s1600',
+        url: 'https://drive.google.com/uc?id=1PoNCQzXLdlZnRG74BPDdZ4FXfnkkqX-Q',
         description: 'Florida Georgia Line drum set up. 20 microphones, one kit.',
         location: 'Ocean Way Nashville Studios'
       },
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zIrAQ8CW1-F8TEYlLJYHE4ZoZnxPHB0cc1kVJfBxSBrrtxV_ae5-NCOVZaCLq-6lswsZF1O6aFXKWQ6qYtEiEAmMR4=s1600',
+        url: 'https://drive.google.com/uc?id=1KGVZlKXzI9I4WXyckUSVCjbLzXZuUiMS',
         description: 'A mic I built, as used on a professional recording session',
         location: 'Starstruck Studios'
       },
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-xNqU-4BY6Ora6SgfzDMr5L9g8E_iyg2wwBzddFHd0qkac5GG_IZJ9n8mcwwv_WM211_LopWrIE9fU8uXpKlkV_tqoM=s1600',
+        url: 'https://drive.google.com/uc?id=16tehayAeNHT4CMT8yzwinFfccIVs7ew6',
         description: 'Orchestra set up in Ocean Way Studio A. The windows are stained glass from its chapel days',
         location: 'Ocean Way Studios Nashville'
       }
@@ -93,23 +93,23 @@ export const WorkHx = [
       'Teamwork'
     ],
     askAbout: [
-      'Shawn Johnsen\'s adorable dogs',
+      'Shawn Johnson\'s adorable dogs',
       'Brittany Howard\'s secret to twenty-year-old cats',
-      'How many puppies I got to love on'
+      'How cats reabsord their teeth'
     ],
     pictures: [
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yewQw1a6dQSX34kPW1HZzpJVzP01lb6qiHBtmjC6DaldWlBHVwSoo1cIebh8S4X0HjTgfqw2BIBKVBQ0nXh5fdMote=s1600',
+        url: 'https://drive.google.com/uc?id=1di6mG0ulq883WtJVtLW92C3h5bF2U0L7',
         description: 'Some patients preferred to be close to their nurse while I worked on their medical records.',
         location: 'VCA Murphy Road Animal Hospital'
       },
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yW_kv5nGeHt_h78tC9ZlzGsud4Da--64naOmTeCYLyeDPfqNuZWI29kA2P9ddYPJOKsJnfCZ7vX1QwsLUMzlD19Bc2QA=s1600',
+        url: 'https://drive.google.com/uc?id=1sHv8APq66qZo6yNNHCrMYxVfUI3iP9Oy',
         description: 'A litter of puppies enjoying breakfast at the adoption agency',
         location: 'VCA Murphy Road Animal Hospital'
       },
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-xofBmvPvA4huVx8_6mYwPqdUAswgOX8eyyHAg7Y_ZsXU0n2wMQsy8rbHceL3E4fKgy2_yr_kSSeAzMQ5aTINwXfhq_=s1600',
+        url: 'https://drive.google.com/uc?id=1A_nVZS2V5kJL-Oz1h1PdfH4th4OkTpp2',
         description: 'Rescued at 4 weeks and between her parents\' dedication and our treatment she made a full recovery and is a happy, loved adult now. We formed a special bond whenever she visited.',
         location: 'Five Points Animal Hospital'
       }
@@ -158,17 +158,17 @@ export const WorkHx = [
     ],
     pictures: [
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-w9oK0Wt0ZgTC1mA0nTvlD3VYaOVtw-SBJvS3Dz3FjnV35tMCEovqJIhBqJQ4jIhpWnv_naCneKZKcxwxkCjtLwm8m4pw=s1600',
+        url: 'https://drive.google.com/uc?id=19rDQSXk9W1-aK5r4XdICrWI57lN6v6dB',
         description: 'The flagship Rasputin location in Berkeley, CA',
         location: "Rasputin Music"
       },
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zLRqFrVlgpDJG3_7zGf1yGM1xcI2mruDxZzSrEtZ7N-H_7CaNmS64NBc_Vk_NhsMg80xqJvw_g7UBRUJhXjKTALytc3w=s1600',
+        url: 'https://drive.google.com/uc?id=1gr53jj7KqfApgGIS7pNp-vWVldsWvTvQ',
         description: 'Provence Cafe interior',
         location: 'Provence Breads & Cafe'
       },
       {
-        url: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zZBGhg86yD-AeBWoJV1qxKpgDs1tqWJNylhuGKavM04WTQpLEqzYUD6geYMmtAEmk0txX6c6D6kjTBAkwhoUMEG0Rk=s2560',
+        url: 'https://drive.google.com/uc?id=1ouqm8GXDw4ebUEZrG8o7LBy0EqAgh-DZ',
         description: 'The iconic sunflower BBQ wrap, which I was a local legend for',
         location: 'Sunflower Cafe'
       }
