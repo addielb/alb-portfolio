@@ -30,4 +30,7 @@ module.exports = {
     static: 'dist',
     watchContentBase: true,
   },
+  resolve: {
+    fallback: { "url": require.resolve("url/")}
+  }
 };

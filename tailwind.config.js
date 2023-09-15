@@ -5,5 +5,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  corePugins: {
+    preflight: false,
+  }
 }
 
