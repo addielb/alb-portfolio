@@ -95,7 +95,8 @@ export const WorkHx = [
     askAbout: [
       'Shawn Johnson\'s adorable dogs',
       'Brittany Howard\'s secret to twenty-year-old cats',
-      'How cats reabsord their teeth'
+      'How cats reabsorb their teeth',
+      'Poop cat'
     ],
     pictures: [
       {
@@ -110,7 +111,7 @@ export const WorkHx = [
       },
       {
         url: 'https://drive.google.com/uc?id=1A_nVZS2V5kJL-Oz1h1PdfH4th4OkTpp2',
-        description: 'Rescued at 4 weeks and between her parents\' dedication and our treatment she made a full recovery and is a happy, loved adult now. We formed a special bond whenever she visited.',
+        description: 'Regular patients receiving ongoing treatment formed special bonds with us. Sweet Nellie (pictured) made a full recovery thanks to her owner\'s dedication and our treatment',
         location: 'Five Points Animal Hospital'
       }
     ]

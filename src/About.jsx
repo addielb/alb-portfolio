@@ -22,9 +22,11 @@ function About() {
         })}
       </div>
       <div>
-        <img className="rounded-full mb-5" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xzOTzqY5KwmWjISyf3JBfp3hCqSmtY1HHWkQXh7qeP9JldvDU1cr0zRDEKvfZv9A92YdkBL4_ggUDKkV6uRXLLRBbryg=s2560"/>
-        <img className="rounded-full mb-5" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xq228I-KoX-kfMwQT8bXQxzCGFoHT44fxRGRpFcCZFayyLzPWBP1knp6bys5HaiHaPD7bv1uhY3Rqb5fTYYiPxb63Y9Q=s1600"/>
-        <img className="rounded-full" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-yTDFxx1TwfuB3dLiYe7KDtlFBlYS8g-z-KRVz8S5KMpmpxijPQfGGpa0EczhllP4jiGq8ogtUrKwl0olOtONGH2yNvRg=s1600"/>
+        {aboutInfo.pictures.map((pic) => {
+          return (
+            <img className="rounded-full mb-5" src={pic.url} alt={pic.description}/>
+          )
+        })}
       </div>
       <div>
         {aboutInfo.personal.map((para) => {

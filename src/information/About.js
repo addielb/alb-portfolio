@@ -10,5 +10,19 @@ export const aboutInfo = {
     'On the weekends, you can find me camping or cooking elaborate meals--I discovered my love for cooking while I was vegan and have continued to be curious and explorative in the kitchen--just as on the computer--now that I am not. As you can observe, eating is my favorite part of traveling.',
     'I grew up in the San Francisco Bay Area, moved to Nashville for college and stayed for seven years, and just this summer moved out to Denver. I\'m thankful for all the lessons I\'ve learned around the country and all the diverse people I\'ve met through it. There\'s a little piece of me that lives in all of my homes still. I also love to travel, and recently fell in love with Amsterdam, though any walkable, artistic city will steal my heart.',
     'I\'m also the lucky mom to three beautiful cats, Claire (13), Debora (3), and Missy (2) (full name Artemis... but she\'s not smart enough to be called Artemis). Since my partner and I don\'t have our own children, the girls are very spoiled but they are also all very sweet. They will make an appearance on any Zoom meeting!'
+  ],
+  pictures: [
+    {
+      url: 'https://drive.google.com/uc?id=1L2BM0NQ5elayHm9BfVbhqOE86aj7q0Qd',
+      description: 'Me, smiling at the camera while out for a nice dinner'
+    },
+    {
+      url: 'https://drive.google.com/uc?id=1JP88pji6CIVZwvay9TzMgrwtCQH9LJnY',
+      description: 'Me in Amsterdam, about to bite into delicious (gluten free) pasta',
+    },
+    {
+      url: 'https://drive.google.com/uc?id=1iht_H9kyKddQiSrHXfPk4FzwFdFE6Ef1',
+      description: 'My beautiful old lady Claire the kitty, pictured in her favorite environment: snuggling with me'
+    }
   ]
 }
