@@ -34,7 +34,6 @@ export const WorkHx = [
       'Cross-team Communication',
       'Electrical Engineering',
       'SQL',
-      'Microsoft Office & Outlook',
       'ProTools',
       'Troubleshooting'
     ],
@@ -88,7 +87,6 @@ export const WorkHx = [
       'Time management',
       'Cross-team communication',
       'Attention to Detail',
-      'Customer service under pressure',
       'Proactivity',
       'Teamwork'
     ],
@@ -153,9 +151,10 @@ export const WorkHx = [
       'Attention to Detail'
     ],
     askAbout: [
-      'When I learned I was terrible at barista-ing',
+      'How I learned I was terrible at barista-ing',
       'Working at a bread shop while getting diagnosed with Celiac Disease',
-      'The ghosts of Sunflower Cafe'
+      'The ghosts of Sunflower Cafe',
+      'The "porn sequels" game'
     ],
     pictures: [
       {
