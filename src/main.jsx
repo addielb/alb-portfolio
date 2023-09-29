@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <div className="min-h-screen bg-gradient-to-r from-yellow-400 to-yellow-100">
+    <div className="min-h-screen bg-gradient-to-r from-md-yellow to-lt-yellow text-dark-green">
       <NavBar />
       <App />
       {/* <Footer /> */}

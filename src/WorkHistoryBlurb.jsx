@@ -49,7 +49,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
         </div>
       </div>
       <div className="flex flex-col float-right mx-auto relative flex-wrap px-5 pt-5">
-        <div className="rounded-3xl bg-lime-900/70 text-white shadow-lg py-2">
+        <div className="rounded-3xl bg-dark-green/70 text-white shadow-lg py-2">
           <p className="px-5 font-bold italic text-xl pt-2 mx-auto pl-[7%]">Skills:</p>
           <ul className="pb-2 pt-5 mx-auto flex flex-row justify-between max-w-prose">
             {skills.map((skill) => {

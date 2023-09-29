@@ -5,11 +5,11 @@ function NavBar() {
   return (
     <div className="bg-gradient-to-r from-yellow-400 to-yellow-100 mx-10 p-10 sticky top-0 z-50">
       <Link to='/'>
-        <h1 className="mb-4 text-8xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-10">
+        <h1 className="mb-4 text-8xl font-extrabold leading-none tracking-tight text-dark-green md:text-5xl lg:text-6xl dark:text-white pt-10">
           Addie Lopshire-Bratt
         </h1>
       </Link>
-      <nav className="flex max-w-full content-start items-center justify-between flex-wrap text-xl border-b-4 border-black">
+      <nav className="flex max-w-full content-start items-center justify-between flex-wrap text-xl text-dark-green border-b-4 border-dark-green">
         <Link to='/about'>
           <button className="mr-20">About</button>
         </Link>

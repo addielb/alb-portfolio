@@ -9,14 +9,14 @@ export const projects = [
   {
     title: 'Atelier System Design',
     link: 'https://github.com/rpp2210-sdc-daffodil/alb-products',
-    description: 'Tasked with redesigning a monolithic server architecture to microservices, I created and executed an ETL process using MongoDB built-in aggregation pipeline. As the system was designed to one-to-one substitute with legacy front-end code by accessing my custom API endpoints, I improved throughput 3900% with Redis caching and NGINX load-balancing.',
+    description: 'Tasked with redesigning a monolithic server architecture to microservices, I created and executed an ETL process using MongoDB\'s aggregation pipeline. I integrated seamlessly with the legacy front-end code by developing custom API endpoints, ultimately improving throughput 3900% with Redis caching and NGINX load-balancing.',
     role: 'Backend Engineer',
     gifLink: 'https://drive.google.com/uc?id=1opSiF9bDfDwWJgsevxy11PuDV4DEOFlu'
   },
   {
     title: 'Equinox Fashion',
     link: 'https://github.com/TeamEquinox/FEC',
-    description: 'With a team of four engineers, we updated the product overview page for a clothing retailer. Using React, Express, and JavaScript we improved the page and built a custom React Hook to track Real User Metrics (RUM).',
+    description: 'With a team of four engineers, we updated the product overview page for a clothing retailer. Using React, Express, and JavaScript we improved the page and built a custom React Hook to track Real User Metrics (RUM). By monitoring Google Lighthouse, we reduced LCP and FCP time to below 2 seconds.',
     role: 'Frontend Engineer',
     gifLink: 'https://drive.google.com/uc?id=1yyaiXnqNt8Oy3ceg3Ox5rEq33WW5-Jgl'
   }
