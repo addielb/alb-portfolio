@@ -1232,6 +1232,11 @@ video {
   border-color: rgb(187 115 40 / var(--tw-border-opacity));
 }
 
+.border-lt-yellow {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 245 216 / var(--tw-border-opacity));
+}
+
 .bg-dark-green {
   --tw-bg-opacity: 1;
   background-color: rgb(38 54 5 / var(--tw-bg-opacity));
@@ -1254,6 +1259,10 @@ video {
 .bg-orange {
   --tw-bg-opacity: 1;
   background-color: rgb(187 115 40 / var(--tw-bg-opacity));
+}
+
+.bg-orange\/70 {
+  background-color: rgb(187 115 40 / 0.7);
 }
 
 .bg-gradient-to-r {
