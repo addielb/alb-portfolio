@@ -16,9 +16,9 @@ function SoftwareProjectBlurb({ title, role, link, description, gifLink }) {
         <button type="button" className="border-2 border-orange text-lt-yellow bg-orange p-4 rounded-xl">
           <a target="_blank" href={link}>Learn more</a>
         </button>
-        <button className="float-right border-2 border-orange rounded-xl p-4 text-lt-yellow bg-orange" type="button" onClick={toggleSize}>{isEnlarged ? "Close Demo" : "Show Demo"}</button>
+        <button className="float-right border-2 border-orange rounded-xl p-4 text-lt-yellow bg-orange" type="button" onClick={toggleSize}>{isEnlarged ? "Hide" : "Expand"}</button>
       </div>
-      {isEnlarged && <img className="mx-auto pt-5" src={gifLink}/>}
+      <img className="mx-auto pt-5" src={gifLink}/>
     </div>
   )
 }
