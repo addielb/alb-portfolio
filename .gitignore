@@ -4,3 +4,4 @@ bundle.js
 dist/bundle.js
 dist/bundle.js.LICENSE.txt
 .env
+.DS_Store

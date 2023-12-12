@@ -1,10 +1,24 @@
 export const arts = [
   {
+    title: 'Flowers',
+    dates: 'June 2022 - February 2023',
+    description: 'My favorite style that I do--this piece is 18" x 24", filled with months of doodles. I have tried over the years to keep diaries but they never last. I used to love doodling during class; I found it much easier to concentrate. So when I graduated college I found a missing part of my life, but doodling didn\'t feel enough like "art" until I started making larger scale pieces. And now these are my most popular pieces, so screw you 7th grade Algebra teacher.',
+    medium: ['Markers', 'Colored Pencils', 'Oil Pastels'],
+    link: 'https://drive.google.com/uc?id=1bmXhfiuqhwnGBWfY63YMCD45QO2c92dZ'
+  },
+  {
     title: 'The Moirologist',
     dates: 'September 2023',
-    description: 'Inspired by \'Self Portrait As A Moirologist\' by Kathryn Bratt-Pfotenhauer, this piece explores my complicated relationship with death, grief, and night. I\ve also long loved crows and dream of building a real friendship with my local murder. Read the poem!',
+    description: 'Inspired by \'Self Portrait As A Moirologist\' by Kathryn Bratt-Pfotenhauer, this piece explores my complicated relationship with death, grief, and night. I\'ve also long loved crows and dream of building a real friendship with my local murder. Read the poem!',
     medium: ['Digital (Procreate)'],
     link: 'https://drive.google.com/uc?id=1tpzuKaDr483X5oex4uSb7727U-B6RfPi'
+  },
+  {
+    title: 'A Mushroom',
+    dates: 'November 2021 - June 2022',
+    description: 'One of my first explorations into the doodle style. This piece started as more of a proof of concept, and as it evolved I started to see the flaws in the composition and what I would want to do next. While I\'ve always prefered warm colors to cool, I chose this color scheme in honor of my partner, who the piece is for. Of course, I didn\'t finish it until we lived together, but he knows it\'s his at least.',
+    medium: ['Markers', 'Graphite', 'Colored Pencils', 'Acrylic Paint'],
+    link: 'https://drive.google.com/uc?id=1f83bUxbXzdbPDxmQTtYwD2ef7aHjD_9a'
   },
   {
     title: 'Inside the Ironwood Tree',
@@ -25,14 +39,7 @@ export const arts = [
     dates: 'December 2022',
     description: 'Growing up, my favorite movie was (and honestly still is) \'My Neighbor Totoro\' from Studio Ghibli. To celebrate the art that inspired so much of my style, I redesigned the totoros in the style of mine and my sister\'s cats, and drew the two sisters as a younger version of my sister and me. I see so much of my childhood in this movie, and I love that I was able to recreate such a sweet feeling in my own life.',
     medium: ['Digital (Procreate)'],
-    link: 'https://drive.google.com/uc?id=zaRSpCHfTNnek3dLlj1e9NN6hQhk5nNJ'
-  },
-  {
-    title: 'Flowers',
-    dates: 'June 2022 - February 2023',
-    description: 'My favorite style that I do--this piece is 18" x 24", filled with months of doodles. I have tried over the years to keep diaries but they never last. I used to love doodling during class; I found it much easier to concentrate. So when I graduated college I found a missing part of my life, but doodling didn\'t feel enough like "art" until I started making larger scale pieces. And now these are my most popular pieces, so screw you 7th grade Algebra teacher.'
-    medium: ['Markers', 'Colored Pencils', 'Oil Pastels'],
-    link: 'https://drive.google.com/uc?id=1bmXhfiuqhwnGBWfY63YMCD45QO2c92dZ'
+    link: 'https://drive.google.com/uc?id=1zaRSpCHfTNnek3dLlj1e9NN6hQhk5nNJ'
   },
   {
     title: 'Licha Moss',
@@ -42,18 +49,11 @@ export const arts = [
     link: 'https://drive.google.com/uc?id=1_6o4uCWBpeYwM4igVcsZqMFzAjiliLNd'
   },
   {
-    title: 'A Mushroom',
-    dates: 'November 2021 - June 2022',
-    description: 'One of my first explorations into the doodle style. This piece started as more of a proof of concept, and as it evolved I started to see the flaws in the composition and what I would want to do next. While I\'ve always prefered warm colors to cool, I chose this color scheme in honor of my partner, who the piece is for. Of course, I didn\'t finish it until we lived together, but he knows it\'s his at least.',
-    medium: ['Markers', 'Graphite', 'Colored Pencils', 'Acrylic Paint'],
-    link: 'https://drive.google.com/uc?id=1f83bUxbXzdbPDxmQTtYwD2ef7aHjD_9a'
-  },
-  {
     title: 'Several Mushrooms',
     dates: 'February 2023 - July 2023',
     description: 'A continuation of my doodle projects, this is a focus on warm colors and differentiation as they overlap. This is also the first piece I switched to black outlines for. If it wasn\'t already obvious, mushrooms--any nature really, but specifically mushrooms--are a favorite subject of mine, and I wanted to revist the doodle mushroom concept and improve upon it using my own favorite colors.',
     medium: ['Markers', 'Colored Pencils', 'Oil Pastels'],
-    link: 'https://drive.google.com/uc?id=1Ow2Vz7ohyPPgkGud5AnaXfXQSNkYJEdg'
+    link: 'https://drive.google.com/uc?id=1AfRTbUbq8llqBxMw1ZaJO_0D2V8_iol8'
   },
   {
     title: 'Thecius',
