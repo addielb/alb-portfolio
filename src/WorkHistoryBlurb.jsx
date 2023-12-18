@@ -1,15 +1,16 @@
+/* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
 import WorkHistoryRole from './WorkHistoryRole.jsx';
 
 function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
-  const [displayDescription, setDisplayDescription] = useState(false);
+  // const [displayDescription, setDisplayDescription] = useState(false);
   // const [displayWidth, setDisplayWidth] = useState(0)
   // const [parentWidth, setParentWidth] = useState(0);
   var isFirst = true;
 
   const toggleDescriptionOn = (e) => {
     e.preventDefault();
-    setDisplayDescription(true);
+    // setDisplayDescription(true);
     // var parentEle = document.getElementById('image-container');
     // var imageEle = document.getElementById('image');
     // var parentInfo = parentEle.getBoundingClientRect();
@@ -20,7 +21,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
 
   const toggleDescriptionOff = (e) => {
     e.preventDefault();
-    setDisplayDescription(false);
+    // setDisplayDescription(false);
   }
 
   return (
@@ -29,6 +30,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
       <div className="float-left pt-5 flex flex-col px-5 max-w-[40vw]">
         {roles.map((role) => {
           return (<WorkHistoryRole
+            key={role.business}
             title={role.title}
             business={role.business}
             bullets={role.bullets}
@@ -42,7 +44,12 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                 isFirst = false;
               }
               return (
-                <li className={`${isFirst ? 'border-x-2' : 'border-r-2'} grow mx-auto px-4 border-lt-yellow`}>{story}</li>
+                <li
+                  className={`${isFirst ? 'border-x-2' : 'border-r-2'} grow mx-auto px-4 border-lt-yellow`}
+                  key={story}
+                >
+                  {story}
+                </li>
               )
             })}
           </ul>
@@ -59,15 +66,20 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                 isFirst = false;
               }
               return (
-              <li className={`${isFirst ? 'border-x-2' : 'border-r-2'} grow mx-auto px-4 border-lt-yellow`}>{skill}</li>
+              <li
+                className={`${isFirst ? 'border-x-2' : 'border-r-2'} grow mx-auto px-4 border-lt-yellow`}
+                key={skill}
+              >
+                {skill}
+              </li>
               )
             })}
           </ul>
         </div>
-        <div className='float-right flex content-start min-h-[60vh] max-h-[60vh] overflow-x-scroll overflow-y-hidden max-w-3xl snap-mandatory snap-x'>
+        <div className='float-right flex content-start min-h-[60vh] max-h-[70vh] overflow-x-scroll overflow-y-hidden max-w-3xl snap-mandatory snap-x'>
           {pictures.map((pic) => {
             return (
-              <div className="min-w-full object-cover place-content-center justify-center text-center mx-auto relative w-[500px]" id="image-container">
+              <div className="min-w-full object-cover place-content-center justify-center text-center mx-auto relative w-[500px]" id="image-container" key={pic.description}>
                 <img
                   onMouseEnter={toggleDescriptionOn}
                   onMouseLeave={toggleDescriptionOff}
@@ -76,7 +88,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                   src={pic.url}
                   alt={pic.description}
                 />
-              <div className={`absolute left-0 right-0 p-8 bg-orange text-white object-cover text-center place-content-center justify-center rounded-3xl shadow-lg`}>
+              <div className={`absolute left-0 right-0 p-8 bg-orange text-white object-cover text-center place-content-center justify-center rounded-3xl shadow-lg min-h-min`}>
                   <h4 className="font-bold text-xl">{pic.location}</h4>
                   <p>{pic.description}</p>
                 </div>

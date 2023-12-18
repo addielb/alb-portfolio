@@ -1,7 +1,6 @@
 import React from 'react';
 import WorkHistoryBlurb from './WorkHistoryBlurb.jsx';
-
-const { WorkHx } = require('./information/WorkHx.js');
+import { WorkHx } from './information/WorkHx.js';
 
 function WorkHistory() {
   return (
@@ -15,6 +14,7 @@ function WorkHistory() {
       <div className="pt-10 mx-10 justify-center place-content-center flex flex-col">
         {WorkHx.map((work) => {
           return <WorkHistoryBlurb
+            key={work.industry}
             industry={work.industry}
             roles={work.roles}
             skills={work.skills}

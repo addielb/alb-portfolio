@@ -24,7 +24,7 @@ function Art() {
           Some of My Art
         </h2>
         <p className="text-center mb-4 text-xl">
-          As an artist by hobby, I want to share a few of my favorite works. My artistic disposition shapes how I approach my code, relationships, and life.
+          As an artist by hobby, I want to share a few of my favorite works. My artistic disposition shapes how I approach my code, relationships, and life. Click on the medium below a piece to filter the list to that specific medium.
         </p>
         {isFiltered && <button className="text-center align-items-center justify-content-center border-2 border-orange rounded-xl p-4 text-lt-yellow bg-orange m-2 w-52" type="button" onClick={clearFilters}>Clear Filters</button>}
       </div>
@@ -35,7 +35,7 @@ function Art() {
               <div className="max-h-[60vh] content-center place-content-center justify-center align-items-center flex">
                 <img className="object-cover max-h-[60vh]" src={piece.link}/>
               </div>
-              <h4 className="text-2xl p-1">{piece.title}</h4>
+              <h4 className="text-2xl pt-2 pb-1">{piece.title}</h4>
               <p className="p-1">{piece.dates}</p>
               <p className="p-1">{piece.description}</p>
               {piece.medium.map((medium) => {

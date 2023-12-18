@@ -2,14 +2,14 @@ export const arts = [
   {
     title: 'Flowers',
     dates: 'June 2022 - February 2023',
-    description: 'My favorite style that I do--this piece is 18" x 24", filled with months of doodles. I have tried over the years to keep diaries but they never last. I used to love doodling during class; I found it much easier to concentrate. So when I graduated college I found a missing part of my life, but doodling didn\'t feel enough like "art" until I started making larger scale pieces. And now these are my most popular pieces, so screw you 7th grade Algebra teacher.',
+    description: 'My favorite style that I do--this piece is 18" x 24", filled with months of doodles. I have tried over the years to keep diaries but they never last. I used to love doodling during class; I found it much easier to concentrate. So when I graduated college I felt a part of my life missing, but doodling didn\'t feel enough like "art" until I started making larger scale pieces. And now these are my most popular pieces, so take that 7th grade Algebra teacher.',
     medium: ['Markers', 'Colored Pencils', 'Oil Pastels'],
     link: 'https://drive.google.com/uc?id=1bmXhfiuqhwnGBWfY63YMCD45QO2c92dZ'
   },
   {
     title: 'The Moirologist',
     dates: 'September 2023',
-    description: 'Inspired by \'Self Portrait As A Moirologist\' by Kathryn Bratt-Pfotenhauer, this piece explores my complicated relationship with death, grief, and night. I\'ve also long loved crows and dream of building a real friendship with my local murder. Read the poem!',
+    description: 'Inspired by \'Self Portrait As A Moirologist\' by Kathryn Bratt-Pfotenhauer, this piece explores my complicated relationship with death, grief, and night. I\'ve also long loved crows and dream of building a real friendship with my local murder. Read the poem in their debut anthology, "Bad Animal"!',
     medium: ['Digital (Procreate)'],
     link: 'https://drive.google.com/uc?id=1tpzuKaDr483X5oex4uSb7727U-B6RfPi'
   },

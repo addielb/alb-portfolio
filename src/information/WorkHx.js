@@ -1,5 +1,45 @@
 export const WorkHx = [
   {
+    industry: 'Software Engineering',
+    roles: [
+      {
+        title: 'Junior Product Engineer',
+        business: 'Tenet Energy',
+        bullets: [
+          'Delivered 3-5 daily code improvements using TypeScript and React to improve user experience',
+          'Refactored Contentful models in codebase to increase flexibility for non-engineers',
+          'Collaborated with senior engineers to debug issues across front-end and back-end repositories',
+          'Performed thorough code reviews of colleagues\' pull requests on GitHub',
+        ],
+      }
+    ],
+    skills: [
+      'TypeScript',
+      'NodeJS',
+      'React Custom Hooks',
+      'Code Reviews',
+      'Debugging',
+    ],
+    askAbout: [
+      'My debugging philosophy',
+      'The Giphy extension for Slack',
+      'The difference between car-sharing and ride-sharing',
+      'Getting laid off'
+    ],
+    pictures: [
+      {
+        url: 'https://drive.google.com/uc?id=1HN8lGh_VHXBH41tknwx1RzKWD6X7LiPX',
+        description: 'Calculator Card on the Tenet Website; I made the savings box and debugged many issues with the original layout.',
+        location: 'Tenet Energy Website',
+      },
+      {
+        url: 'https://drive.google.com/uc?id=1mmD9vjJvKoGkJSGBJlD_GeuCZ37WVy9R',
+        description: 'Contentful module implemented by me using existing models with added flexibility to control the button appearance, the margins, and the logo.',
+        location: 'Tenet Energy Website',
+      }
+    ]
+  },
+  {
     industry: 'Music Industry',
     roles: [
       {
