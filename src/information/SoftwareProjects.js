@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: 'Portfolio (this site!)',
+    link: 'https://github.com/addielb/alb-portfolio/tree/main',
+    description: 'I\'ve often heard you\'re not a real software engineer until you have your own portfolio website, so I started this project to keep my web dev skills up between jobs. Using React, NodeJS, and Express, I built this little website to showcase my skills while allowing me to keep developing them. I\'ve also implemented Tailwind CSS, which surprisingly deepened my CSS knowledge.',
+    role: 'All of them',
+    gifLink: 'https://drive.google.com/uc?id=1i1gs8UZEhd2YeB-OIQjUkryaT64k5Nx_'
+  },
+  {
     title: 'CupQuest',
     link: 'https://github.com/rpp2210-boc-chatterbox/cup-quest',
     description: 'Using the MERN stack, my team built a mobile-first full stack application to find and review coffee shops based on the user\'s location. Integrating external APIs to get information about local coffee shops, my contribution dynamically rendered specific information about a shop and aggregated drink ratings according to our own database of reviews.',

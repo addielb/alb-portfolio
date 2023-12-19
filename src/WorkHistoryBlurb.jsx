@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import WorkHistoryRole from './WorkHistoryRole.jsx';
 
 function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
@@ -76,7 +76,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
             })}
           </ul>
         </div>
-        <div className='float-right flex content-start min-h-[60vh] max-h-[70vh] overflow-x-scroll overflow-y-hidden max-w-3xl snap-mandatory snap-x'>
+        <div className='float-right flex content-start min-h-[65vh] max-h-[70vh] overflow-x-scroll overflow-y-hidden max-w-3xl snap-mandatory snap-x'>
           {pictures.map((pic) => {
             return (
               <div className="min-w-full object-cover place-content-center justify-center text-center mx-auto relative w-[500px]" id="image-container" key={pic.description}>

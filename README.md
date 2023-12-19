@@ -16,10 +16,11 @@ This site contains several pages of information about the corresponding page tit
 * **Art**: This portion has some photos of completed art pieces of mine. Art is my favorite hobby, one I have been doing to varying levels of seriousness since childhood. Over the past several years, I have rekindled my excitement in doodling, making large-scale doodle projects exploring nature.
 
 ## Tech Stack
-* Next.js
+* React
 * Tailwind
 * Vercel
-* TypeScript
+* JavaScript/NodeJS
+* ExpressJS
 
 ## Usage
 If you would like to visit the deployed website, visit [URL].
