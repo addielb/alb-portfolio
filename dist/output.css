@@ -568,8 +568,24 @@ video {
   }
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .visible {
   visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 .collapse {
@@ -998,6 +1014,11 @@ video {
   max-width: 36rem;
 }
 
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1024,6 +1045,16 @@ video {
 
 .border-collapse {
   border-collapse: collapse;
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-100 {
@@ -1640,16 +1671,97 @@ video {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:max-w-max {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:invisible {
+    visibility: hidden;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:max-w-2xl {
+    max-width: 42rem;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
   .lg\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 }
