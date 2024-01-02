@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <div className="bg-gradient-to-r from-yellow-400 to-yellow-100 mx-10 p-10 sticky top-0 z-50">
       <Link to='/'>
-        <h1 className="mb-4 lg:text-8xl md:text-6xl sm:text-6xl font-extrabold leading-none tracking-tight text-dark-green dark:text-white pt-10">
+        <h1 className="mb-4 lg:text-7xl md:text-6xl sm:text-6xl font-extrabold leading-none tracking-tight text-dark-green dark:text-white pt-10 sm:content-center sm:justify-center">
           Addie Lopshire-Bratt
         </h1>
       </Link>
