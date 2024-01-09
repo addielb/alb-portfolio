@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX} from '@fortawesome/free-solid-svg-icons'
@@ -6,6 +6,9 @@ import { faBars, faX} from '@fortawesome/free-solid-svg-icons'
 function NavBar() {
   const screenWidth = screen.width;
   const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    setIsOpen(false);
+  }, [])
   return (
     <div className={`${screenWidth < 640 ? "mx-5 p-5" : "mx-10 p-10 sticky bg-gradient-to-r from-md-yellow to-lt-yellow"} top-0 z-50`}>
       {screenWidth < 640 &&

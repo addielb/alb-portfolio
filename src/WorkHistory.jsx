@@ -9,7 +9,7 @@ function WorkHistory() {
         Work History
       </h2>
       <p className="text-center text-xl">
-        In order of most interesting, these are some of the industries I've worked in before software engineering and gained invaluable experience across many disciplines.
+        In order of most interesting, these are some of the industries I&apos;ve worked in before software engineering and gained invaluable experience across many disciplines.
       </p>
       <div className="pt-10 mx-10 justify-center place-content-center flex flex-col">
         {WorkHx.map((work) => {
