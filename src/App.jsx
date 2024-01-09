@@ -1,10 +1,9 @@
 import React from 'react';
-import {
-  Routes,
-  Route,
-} from 'react-router-dom';
+import { createRoot } from 'react-dom';
+
 import '../dist/output.css';
 
+import NavBar from './NavBar.jsx';
 import Welcome from './Welcome.jsx';
 import About from './About.jsx';
 import Contact from './Contact.jsx';
@@ -15,18 +14,21 @@ import Art from './Art.jsx';
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={<Welcome />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/art' element={<Art />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/software' element={<SoftwareProjects />} />
-        <Route path='/history' element={<WorkHistory />} />
-      </Routes>
+    <div className="min-h-screen bg-gradient-to-r from-md-yellow to-lt-yellow text-dark-green">
+      {/* <NavBar /> */}
+      <Welcome />
+      <About />
+      <SoftwareProjects />
+      <WorkHistory />
+      <Art />
+      <Contact />
+      </div>
     </>
   )
 }
 
-export default App;
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App />);
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.createRoot(document.getElementById('root')).render(<App />);

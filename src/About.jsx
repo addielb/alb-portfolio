@@ -4,8 +4,6 @@ import { useNavigate } from 'react-router';
 const { aboutInfo } = require('./information/About.js');
 
 function About() {
-  const navigate = useNavigate();
-  navigate(0);
 
   return (
     <div className="grid grid-cols-3 mx-10 p-10 gap-x-20">

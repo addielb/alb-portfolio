@@ -6,14 +6,14 @@ import NavBar from './NavBar.jsx';
 import '../dist/output.css';
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-    <div className="min-h-screen bg-gradient-to-r from-md-yellow to-lt-yellow text-dark-green">
-      <NavBar />
-      <App />
-      {/* <Footer /> */}
-    </div>
-    </BrowserRouter>
-  </React.StrictMode>
-)
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//     <div className="min-h-screen bg-gradient-to-r from-md-yellow to-lt-yellow text-dark-green">
+//       <NavBar />
+//       <App />
+//       {/* <Footer /> */}
+//     </div>
+//     </BrowserRouter>
+//   </React.StrictMode>
+// )
