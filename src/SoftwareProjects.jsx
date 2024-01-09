@@ -1,8 +1,7 @@
 import React from 'react';
 
 import SoftwareProjectBlurb from './SoftwareProjectBlurb.jsx';
-
-const { projects } = require('./information/SoftwareProjects.js')
+import { projects } from './information/SoftwareProjects.js';
 
 function SoftwareProjects() {
   return (
@@ -16,6 +15,7 @@ function SoftwareProjects() {
       <div className="grid grid-cols-3 mx-10 p-10 gap-x-20">
         {projects.map((project) => {
           return <SoftwareProjectBlurb
+            key={project.title}
             title={project.title}
             link={project.link}
             description={project.description}

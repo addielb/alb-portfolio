@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 function SoftwareProjectBlurb({ title, role, link, description, gifLink }) {
-  const [isEnlarged, setIsEnlarged] = useState(false)
+  const [isEnlarged, setIsEnlarged] = useState(false);
 
   const toggleSize = (e) => {
     e.preventDefault();
