@@ -33,7 +33,7 @@ function Art() {
           return (
             <div key={piece.title} className="max-w-[40vw] content-center text-center p-4">
               <div className="max-h-[60vh] content-center place-content-center justify-center align-items-center flex">
-                <img className="object-cover max-h-[60vh]" src={piece.link}/>
+                <img className="object-cover max-h-[60vh]" src={piece.path}/>
               </div>
               <h4 className="text-2xl pt-2 pb-1">{piece.title}</h4>
               <p className="p-1">{piece.dates}</p>

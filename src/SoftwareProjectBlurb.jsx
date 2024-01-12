@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 
-function SoftwareProjectBlurb({ title, role, link, description, gifLink }) {
+function SoftwareProjectBlurb({ title, role, link, description, path }) {
   const [isEnlarged, setIsEnlarged] = useState(false);
 
   const toggleSize = (e) => {
@@ -19,7 +19,7 @@ function SoftwareProjectBlurb({ title, role, link, description, gifLink }) {
         </button>
         <button className="float-right border-2 border-orange rounded-xl p-4 text-lt-yellow bg-orange" type="button" onClick={toggleSize}>{isEnlarged ? "Hide" : "Expand"}</button>
       </div>
-      <img className="mx-auto pt-5" src={gifLink}/>
+      <img className="mx-auto pt-5" src={path}/>
     </div>
   )
 }

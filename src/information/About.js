@@ -13,15 +13,18 @@ export const aboutInfo = {
   ],
   pictures: [
     {
-      url: 'https://drive.google.com/uc?id=1L2BM0NQ5elayHm9BfVbhqOE86aj7q0Qd',
+      googleUrl: 'https://drive.google.com/uc?id=1L2BM0NQ5elayHm9BfVbhqOE86aj7q0Qd',
+      path: 'img/dinner.jpg',
       description: 'Me, smiling at the camera while out for a nice dinner'
     },
     {
-      url: 'https://drive.google.com/uc?id=1JP88pji6CIVZwvay9TzMgrwtCQH9LJnY',
+      googleUrl: 'https://drive.google.com/uc?id=1JP88pji6CIVZwvay9TzMgrwtCQH9LJnY',
+      path: 'img/adam.jpg',
       description: 'Me in Amsterdam, about to bite into delicious (gluten free) pasta',
     },
     {
-      url: 'https://drive.google.com/uc?id=1iht_H9kyKddQiSrHXfPk4FzwFdFE6Ef1',
+      googleUrl: 'https://drive.google.com/uc?id=1iht_H9kyKddQiSrHXfPk4FzwFdFE6Ef1',
+      path: 'img/claire_and_me.jpg',
       description: 'My beautiful old lady Claire the kitty, pictured in her favorite environment: snuggling with me'
     }
   ]

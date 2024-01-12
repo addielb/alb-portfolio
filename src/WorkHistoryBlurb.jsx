@@ -85,7 +85,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                   onMouseLeave={toggleDescriptionOff}
                   className="object-cover max-h-[50vh] px-5 snap-center py-5 mx-auto hover:bg-blend-multiply rounded-3xl"
                   id="image"
-                  src={pic.url}
+                  src={pic.path}
                   alt={pic.description}
                 />
               <div className={`absolute left-0 right-0 p-8 bg-orange text-white object-cover text-center place-content-center justify-center rounded-3xl shadow-lg min-h-min`}>

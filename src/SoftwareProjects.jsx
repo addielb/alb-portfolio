@@ -20,7 +20,7 @@ function SoftwareProjects() {
             link={project.link}
             description={project.description}
             role={project.role}
-            gifLink={project.gifLink}
+            path={project.path}
           />
         })}
       </div>

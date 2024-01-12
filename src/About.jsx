@@ -1,7 +1,6 @@
 import React from 'react';
-import { useNavigate } from 'react-router';
 
-const { aboutInfo } = require('./information/About.js');
+import { aboutInfo } from './information/About.js';
 
 function About() {
 
@@ -13,7 +12,7 @@ function About() {
       <div>
         {aboutInfo.softwareEngineer.map((paragraph) => {
           return (
-          <p className="mt-5 text-2xl text-justify">
+          <p className="mt-5 text-2xl text-justify" key={paragraph}>
             {paragraph}
           </p>
           )
@@ -22,14 +21,14 @@ function About() {
       <div>
         {aboutInfo.pictures.map((pic) => {
           return (
-            <img className="rounded-full mb-5" src={pic.url} alt={pic.description}/>
+            <img className="rounded-full mb-5" key={pic.path} src={pic.path} alt={pic.description}/>
           )
         })}
       </div>
       <div>
         {aboutInfo.personal.map((para) => {
           return (
-            <p className="mt-5 text-2xl text-justify">
+            <p className="mt-5 text-2xl text-justify" key={para}>
               {para}
             </p>
           )

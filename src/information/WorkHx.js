@@ -31,11 +31,13 @@ export const WorkHx = [
         url: 'https://drive.google.com/uc?id=1HN8lGh_VHXBH41tknwx1RzKWD6X7LiPX',
         description: 'Calculator Card on the Tenet Website; I made the savings box and debugged many issues with the original layout.',
         location: 'Tenet Energy Website',
+        path: 'img/Calculator_Card.jpg'
       },
       {
         url: 'https://drive.google.com/uc?id=1mmD9vjJvKoGkJSGBJlD_GeuCZ37WVy9R',
         description: 'Contentful module implemented by me using existing models with added flexibility to control the button appearance, the margins, and the logo.',
         location: 'Tenet Energy Website',
+        path: 'img/Connect_Homepage_Module.jpg'
       }
     ]
   },
@@ -87,17 +89,20 @@ export const WorkHx = [
       {
         url: 'https://drive.google.com/uc?id=1PoNCQzXLdlZnRG74BPDdZ4FXfnkkqX-Q',
         description: 'Florida Georgia Line drum set up. 20 microphones, one kit.',
-        location: 'Ocean Way Nashville Studios'
+        location: 'Ocean Way Nashville Studios',
+        path: 'img/FGL_drums'
       },
       {
         url: 'https://drive.google.com/uc?id=1KGVZlKXzI9I4WXyckUSVCjbLzXZuUiMS',
         description: 'A mic I built, as used on a professional recording session',
-        location: 'Starstruck Studios'
+        location: 'Starstruck Studios',
+        path: 'img/mic.JPG'
       },
       {
         url: 'https://drive.google.com/uc?id=16tehayAeNHT4CMT8yzwinFfccIVs7ew6',
         description: 'Orchestra set up in Ocean Way Studio A. The windows are stained glass from its chapel days',
-        location: 'Ocean Way Studios Nashville'
+        location: 'Ocean Way Studios Nashville',
+        path: 'img/orchestra.jpg'
       }
     ]
   },
@@ -140,17 +145,20 @@ export const WorkHx = [
       {
         url: 'https://drive.google.com/uc?id=1di6mG0ulq883WtJVtLW92C3h5bF2U0L7',
         description: 'Some patients preferred to be close to their nurse while I worked on their medical records.',
-        location: 'VCA Murphy Road Animal Hospital'
+        location: 'VCA Murphy Road Animal Hospital',
+        path: 'img/parrot.jpg'
       },
       {
         url: 'https://drive.google.com/uc?id=1sHv8APq66qZo6yNNHCrMYxVfUI3iP9Oy',
         description: 'A litter of puppies enjoying breakfast at the adoption agency',
-        location: 'VCA Murphy Road Animal Hospital'
+        location: 'VCA Murphy Road Animal Hospital',
+        path: 'img/puppies!.jpg'
       },
       {
         url: 'https://drive.google.com/uc?id=1A_nVZS2V5kJL-Oz1h1PdfH4th4OkTpp2',
         description: 'Regular patients receiving ongoing treatment formed special bonds with us. Sweet Nellie (pictured) made a full recovery thanks to her owner\'s dedication and our treatment',
-        location: 'Five Points Animal Hospital'
+        location: 'Five Points Animal Hospital',
+        path: 'img/nellie.jpg'
       }
     ]
   },
@@ -200,17 +208,20 @@ export const WorkHx = [
       {
         url: 'https://drive.google.com/uc?id=19rDQSXk9W1-aK5r4XdICrWI57lN6v6dB',
         description: 'The flagship Rasputin location in Berkeley, CA',
-        location: "Rasputin Music"
+        location: "Rasputin Music",
+        path: 'img/rasputin.jpeg'
       },
       {
         url: 'https://drive.google.com/uc?id=1gr53jj7KqfApgGIS7pNp-vWVldsWvTvQ',
         description: 'Provence Cafe interior',
-        location: 'Provence Breads & Cafe'
+        location: 'Provence Breads & Cafe',
+        path: 'img/provence.jpeg'
       },
       {
         url: 'https://drive.google.com/uc?id=1ouqm8GXDw4ebUEZrG8o7LBy0EqAgh-DZ',
         description: 'The iconic sunflower BBQ wrap, which I was a local legend for',
-        location: 'Sunflower Cafe'
+        location: 'Sunflower Cafe',
+        path: 'img/sunflower.jpeg'
       }
     ]
   }
