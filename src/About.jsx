@@ -5,7 +5,7 @@ import { aboutInfo } from './information/About.js';
 function About() {
 
   return (
-    <div className="grid grid-cols-3 mx-10 p-10 gap-x-20">
+    <div className="grid grid-cols-3 mx-10 p-10 gap-x-20" id="about">
       {/* <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-10">
         Under construction
       </h2> */}

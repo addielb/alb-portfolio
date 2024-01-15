@@ -16,28 +16,16 @@ function NavBar() {
           {isOpen ? <FontAwesomeIcon icon={faX} onClick={() => setIsOpen(false)}/> : <FontAwesomeIcon icon={faBars} onClick={() => setIsOpen(true)}/>}
         </div>
       }
-      <Link to='/'>
+      <a to='/'>
         <h1 className={`${screenWidth >= 640 ? "text-7xl" : "text-3xl self-center justify-center items-center content-center text-center"} mb-4 font-extrabold leading-none tracking-tight text-dark-green dark:text-white pt-10`}>
           Addie Lopshire-Bratt
         </h1>
-      </Link>
-      {screenWidth >= 640 && <nav className="flex max-w-full content-start items-center justify-between flex-wrap text-xl text-dark-green border-b-4 border-dark-green">
-        <Link to='/about'>
-          <button>About</button>
-        </Link>
-        <Link to='/software'>
-          <button>Software Projects</button>
-        </Link>
-        <Link to='/history'>
-          <button>Work History</button>
-        </Link>
-        <Link to='/art'>
-          <button>Art</button>
-        </Link>
-        <Link to='/contact'>
-          <button>Contact</button>
-        </Link>
-      </nav>}
+      </a>
+      {screenWidth >= 640 &&
+        <nav>
+          <a href="#about">About</a>
+        </nav>
+      }
       {isOpen &&
         <div className="min-h-screen flex flex-col">
           <Link to='/about'>
@@ -62,3 +50,21 @@ function NavBar() {
 }
 
 export default NavBar;
+
+{/* <nav className="flex max-w-full content-start items-center justify-between flex-wrap text-xl text-dark-green border-b-4 border-dark-green">
+        <Link to='/about'>
+          <button>About</button>
+        </Link>
+        <Link to='/software'>
+          <button>Software Projects</button>
+        </Link>
+        <Link to='/history'>
+          <button>Work History</button>
+        </Link>
+        <Link to='/art'>
+          <button>Art</button>
+        </Link>
+        <Link to='/contact'>
+          <button>Contact</button>
+        </Link>
+      </nav> */}
