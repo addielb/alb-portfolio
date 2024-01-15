@@ -18,7 +18,7 @@ function Art() {
     setDisplayPieces(arts);
   }
   return (
-    <div className="px-10 pt-2">
+    <div className="px-10 pt-2" id="art">
       <div className="flex flex-col justify-content-center align-items-center px-10">
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl dark:text-white">
           Some of My Art

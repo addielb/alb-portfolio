@@ -22,8 +22,12 @@ function NavBar() {
         </h1>
       </a>
       {screenWidth >= 640 &&
-        <nav>
+        <nav className="flex max-w-full content-start items-center justify-between flex-wrap text-xl text-dark-green border-b-4 border-dark-green">
           <a href="#about">About</a>
+          <a href="#software">Software Projects</a>
+          <a href="#work">Work History</a>
+          <a href="#art">Art</a>
+          <a href="#contact">Contact</a>
         </nav>
       }
       {isOpen &&

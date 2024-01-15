@@ -4,7 +4,7 @@ import { WorkHx } from './information/WorkHx.js';
 
 function WorkHistory() {
   return (
-    <div className="mx-10">
+    <div className="mx-10" id="work">
       <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         Work History
       </h2>

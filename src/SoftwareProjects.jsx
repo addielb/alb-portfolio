@@ -5,7 +5,7 @@ import { projects } from './information/SoftwareProjects.js';
 
 function SoftwareProjects() {
   return (
-    <div>
+    <div id="software">
       <div>
         <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Software Applications
