@@ -16,7 +16,7 @@ function NavBar() {
           {isOpen ? <FontAwesomeIcon icon={faX} onClick={() => setIsOpen(false)}/> : <FontAwesomeIcon icon={faBars} onClick={() => setIsOpen(true)}/>}
         </div>
       }
-      <a to='/'>
+      <a href="">
         <h1 className={`${screenWidth >= 640 ? "text-7xl" : "text-3xl self-center justify-center items-center content-center text-center"} mb-4 font-extrabold leading-none tracking-tight text-dark-green dark:text-white pt-10`}>
           Addie Lopshire-Bratt
         </h1>

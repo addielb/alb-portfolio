@@ -5,32 +5,33 @@ import { aboutInfo } from './information/About.js';
 function About() {
 
   return (
-    <div className="grid grid-cols-3 mx-10 p-10 gap-x-20" id="about">
-      {/* <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-10">
-        Under construction
-      </h2> */}
+    <div className="m-20 max-h-fit" id="about">
+      <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-10">
+        About me
+      </h2>
       <div>
-        {aboutInfo.softwareEngineer.map((paragraph) => {
+        {aboutInfo.copy.map((paragraph, index) => {
+          if (index % 2 === 0) {
+            return (
+              <div className="flex flex-row justify-center items-center space-between gap-8" key={index}>
+                <div className="w-[500px] h-[50vh] object-cover m-auto justify-center items-center text-center place-content-center">
+                  <img className="rounded-full justify-center items-center mx-auto" src={aboutInfo.pictures[index].path} alt={aboutInfo.pictures[index].description}/>
+                </div>
+                <p className="mt-5 text-2xl text-justify max-w-[600px]" key={paragraph}>
+                  {paragraph}
+                </p>
+              </div>
+            )
+          }
           return (
-          <p className="mt-5 text-2xl text-justify" key={paragraph}>
-            {paragraph}
-          </p>
-          )
-        })}
-      </div>
-      <div>
-        {aboutInfo.pictures.map((pic) => {
-          return (
-            <img className="rounded-full mb-5" key={pic.path} src={pic.path} alt={pic.description}/>
-          )
-        })}
-      </div>
-      <div>
-        {aboutInfo.personal.map((para) => {
-          return (
-            <p className="mt-5 text-2xl text-justify" key={para}>
-              {para}
-            </p>
+            <div className="flex flex-row justify-center items-center space-between gap-8" key={index}>
+              <p className="mt-5 text-2xl text-justify max-w-[600px]" key={paragraph}>
+                {paragraph}
+              </p>
+              <div className="w-[500px] h-[50vh] object-cover m-auto justify-center items-center">
+                <img className="rounded-full justify-center items-center" src={aboutInfo.pictures[index].path} alt={aboutInfo.pictures[index].description}/>
+              </div>
+            </div>
           )
         })}
       </div>

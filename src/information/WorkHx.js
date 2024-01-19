@@ -90,7 +90,7 @@ export const WorkHx = [
         url: 'https://drive.google.com/uc?id=1PoNCQzXLdlZnRG74BPDdZ4FXfnkkqX-Q',
         description: 'Florida Georgia Line drum set up. 20 microphones, one kit.',
         location: 'Ocean Way Nashville Studios',
-        path: 'img/FGL_drums'
+        path: 'img/FGL_drums.jpg'
       },
       {
         url: 'https://drive.google.com/uc?id=1KGVZlKXzI9I4WXyckUSVCjbLzXZuUiMS',
