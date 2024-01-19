@@ -14,7 +14,7 @@ import Art from './Art.jsx';
 function App() {
   return (
     <>
-    <div className="min-h-screen bg-gradient-to-r from-md-yellow to-lt-yellow text-dark-green">
+    <div>
       <NavBar />
       <Welcome />
       <About />
