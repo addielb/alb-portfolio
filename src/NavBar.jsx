@@ -21,7 +21,7 @@ function NavBar() {
         </h1>
       </a>
       {screenWidth >= 640 &&
-        <nav className="flex max-w-full content-start items-center justify-between flex-wrap text-xl text-dark-green border-b-4 border-dark-green">
+        <nav className="navBarOptions">
           <a href="#about">About</a>
           <a href="#software">Software Projects</a>
           <a href="#work">Work History</a>
@@ -30,7 +30,7 @@ function NavBar() {
         </nav>
       }
       {isOpen &&
-        <div className="min-h-screen flex flex-col">
+        <div className="navMenuMobile">
           <a href="#about">About</a>
           <a href="#software">Software Projects</a>
           <a href="#work">Work History</a>

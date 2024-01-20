@@ -45,3 +45,23 @@
   font-size: 72px;
   line-height: 1;
 }
+
+.navBarOptions {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-content: start;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+  line-height: 28px;
+  border-bottom-width: 4px;
+  border-bottom-color: #263605;
+}
+
+.navMenuMobile {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
