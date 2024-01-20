@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX} from '@fortawesome/free-solid-svg-icons'
 
@@ -12,12 +11,12 @@ function NavBar() {
   return (
     <div className={`${screenWidth < 640 ? "navBarMobile" : "navBarDesktop"} navBar`}>
       {screenWidth < 640 &&
-        <div className="float-right justify-end pb-0.5">
+        <div className="mobileMenuIcon">
           {isOpen ? <FontAwesomeIcon icon={faX} onClick={() => setIsOpen(false)}/> : <FontAwesomeIcon icon={faBars} onClick={() => setIsOpen(true)}/>}
         </div>
       }
       <a href="">
-        <h1 className={`${screenWidth >= 640 ? "text-7xl" : "text-3xl self-center justify-center items-center content-center text-center"} mb-4 font-extrabold leading-none tracking-tight text-dark-green dark:text-white pt-10`}>
+        <h1 className={`${screenWidth >= 640 ? "nameTitleDesktop" : "nameTitleMobile"} nameTitle`}>
           Addie Lopshire-Bratt
         </h1>
       </a>
@@ -32,21 +31,11 @@ function NavBar() {
       }
       {isOpen &&
         <div className="min-h-screen flex flex-col">
-          <Link to='/about'>
-            <button>About</button>
-          </Link>
-          <Link to='/software'>
-            <button>Software Projects</button>
-          </Link>
-          <Link to='/history'>
-            <button>Work History</button>
-          </Link>
-          <Link to='/art'>
-            <button>Art</button>
-          </Link>
-          <Link to='/contact'>
-            <button>Contact</button>
-          </Link>
+          <a href="#about">About</a>
+          <a href="#software">Software Projects</a>
+          <a href="#work">Work History</a>
+          <a href="#art">Art</a>
+          <a href="#contact">Contact</a>
         </div>
       }
     </div>
