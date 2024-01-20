@@ -10,7 +10,7 @@ function NavBar() {
     setIsOpen(false);
   }, [])
   return (
-    <div className={`${screenWidth < 640 ? "mx-5 p-5" : "mx-10 p-10 sticky bg-gradient-to-r from-md-yellow to-lt-yellow"} top-0 z-50`}>
+    <div className={`${screenWidth < 640 ? "navBarMobile" : "navBarDesktop"} navBar`}>
       {screenWidth < 640 &&
         <div className="float-right justify-end pb-0.5">
           {isOpen ? <FontAwesomeIcon icon={faX} onClick={() => setIsOpen(false)}/> : <FontAwesomeIcon icon={faBars} onClick={() => setIsOpen(true)}/>}

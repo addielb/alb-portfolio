@@ -2,4 +2,20 @@
   min-height: screen;
   background-image: linear-gradient(to right, #f6d36a, #fff5d8);
   color: #263605;
+  padding: 0 80px;
+}
+
+.navBar {
+  top: 0;
+  z-index: 50;
+}
+
+.navBarMobile {
+  margin: 0 20px;
+  padding: 20px;
+}
+
+.navBarDesktop {
+  position: sticky;
+  background-image: linear-gradient(to right, #f6d36a, #fff5d8);
 }
