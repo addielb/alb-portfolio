@@ -5,8 +5,8 @@ import { aboutInfo } from './information/About.js';
 function About() {
 
   return (
-    <div className="m-20 max-h-fit" id="about">
-      <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white pt-10">
+    <div className="aboutContainer" id="about">
+      <h2 className="aboutTitle">
         About me
       </h2>
       <div>
