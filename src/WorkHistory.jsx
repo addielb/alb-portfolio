@@ -4,14 +4,11 @@ import { WorkHx } from './information/WorkHx.js';
 
 function WorkHistory() {
   return (
-    <div className="mx-10" id="work">
-      <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+    <div id="work">
+      <h2 className="sectionTitle">
         Work History
       </h2>
-      <p className="text-center text-xl">
-        In order of most interesting, these are some of the industries I&apos;ve worked in before software engineering and gained invaluable experience across many disciplines.
-      </p>
-      <div className="pt-10 mx-10 justify-center place-content-center flex flex-col">
+      <div className="workBlurbsContainer">
         {WorkHx.map((work) => {
           return <WorkHistoryBlurb
             key={work.industry}

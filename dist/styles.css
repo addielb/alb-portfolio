@@ -85,7 +85,6 @@
 
 /* About Styles */
 .aboutContainer {
-  /* margin: 80px; */
   max-height: fit-content;
   width: 100%;
 }
@@ -184,4 +183,12 @@
 .softwareBlurbImg {
   margin: auto;
   padding: 20px 0px;
+}
+
+/* Work Hx styles */
+.workBlurbsContainer {
+  justify-content: center;
+  place-content: center;
+  display: flex;
+  flex-direction: column;
 }
