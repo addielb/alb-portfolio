@@ -4,6 +4,17 @@
   color: #263605;
   padding: 0 80px;
 }
+
+/* Reusable Styles */
+.sectionTitle {
+  text-align: center;
+  width: 100%;
+  font-size: 72px;
+  line-height: 1;
+  margin: 16px 0px;
+  border-top: 4px solid #263605;
+  font-weight: bold;
+}
 /* NavBar Styles */
 
 .navBar {
@@ -72,16 +83,6 @@
   width: 100%;
 }
 
-.aboutTitle {
-  text-align: center;
-  width: 100%;
-  font-size: 72px;
-  line-height: 1;
-  margin: 16px 0px;
-  border-top: 4px solid #263605;
-  font-weight: bold;
-}
-
 .aboutBlurbContainer {
   display: flex;
   flex-direction: row;
@@ -115,3 +116,5 @@
   text-align: justify;
   max-width: 800px;
 }
+
+/* Software Projects Styles */
