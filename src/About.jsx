@@ -13,23 +13,23 @@ function About() {
         {aboutInfo.copy.map((paragraph, index) => {
           if (index % 2 === 0) {
             return (
-              <div className="flex flex-row justify-center items-center space-between gap-8" key={index}>
-                <div className="w-[500px] h-[50vh] object-cover m-auto justify-center items-center text-center place-content-center">
-                  <img className="rounded-full justify-center items-center mx-auto" src={aboutInfo.pictures[index].path} alt={aboutInfo.pictures[index].description}/>
+              <div className="aboutBlurbContainer" key={index}>
+                <div className="aboutImgContainer">
+                  <img className="aboutImg" src={aboutInfo.pictures[index].path} alt={aboutInfo.pictures[index].description}/>
                 </div>
-                <p className="mt-5 text-2xl text-justify max-w-[600px]" key={paragraph}>
+                <p className="aboutText" key={paragraph}>
                   {paragraph}
                 </p>
               </div>
             )
           }
           return (
-            <div className="flex flex-row justify-center items-center space-between gap-8" key={index}>
-              <p className="mt-5 text-2xl text-justify max-w-[600px]" key={paragraph}>
+            <div className="aboutBlurbContainer" key={index}>
+              <p className="aboutText" key={paragraph}>
                 {paragraph}
               </p>
-              <div className="w-[500px] h-[50vh] object-cover m-auto justify-center items-center">
-                <img className="rounded-full justify-center items-center" src={aboutInfo.pictures[index].path} alt={aboutInfo.pictures[index].description}/>
+              <div className="aboutImgContainer">
+                <img className="aboutImg" src={aboutInfo.pictures[index].path} alt={aboutInfo.pictures[index].description}/>
               </div>
             </div>
           )
