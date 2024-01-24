@@ -45,7 +45,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
               }
               return (
                 <li
-                  className={`${isFirst ? 'border-x-2' : 'border-r-2'} grow mx-auto px-4 border-lt-yellow`}
+                  className={`${isFirst ? 'workExtraListItemFirst' : ''} workExtraListItem`}
                   key={story}
                 >
                   {story}

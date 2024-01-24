@@ -248,4 +248,15 @@
   padding: 20px 0px;
   overflow: auto;
   margin: 0px auto;
+  flex-grow: 1;
+}
+
+.workExtraListItem {
+  margin: 0px auto;
+  padding: 0px 16px;
+  border-right: 2px solid #fff5d8;
+}
+
+.workExtraListItemFirst {
+  border-left: 2px solid #fff5d8;
 }
