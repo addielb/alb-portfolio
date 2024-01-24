@@ -25,7 +25,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
   }
 
   return (
-    <div className="max-h-[60vh] h-2/6 overflow-y-auto bg-dark-yellow text-lt-yellow mb-10 shadow-lg justify-center grow rounded-3xl pb-5">
+    <div className="workBlurbContainer">
       <h2 className="text-3xl font-bold pb-5 px-5 border-b-2 border-dark-green pt-5 text-dark-green">{industry}</h2>
       <div className="float-left pt-5 flex flex-col px-5 max-w-[40vw]">
         {roles.map((role) => {
