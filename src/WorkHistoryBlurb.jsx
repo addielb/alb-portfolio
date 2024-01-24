@@ -37,8 +37,8 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
           />)
         })}
         <div className="workStoriesContainer">
-          <p className="font-bold italic text-xl mx-auto">Ask me about:</p>
-          <ul className="flex flex-row pt-5 overflow-auto mx-auto">
+          <p className="workExtraTitle">Ask me about:</p>
+          <ul className="workExtraList">
             {askAbout.map((story) => {
               if (story !== askAbout[0]) {
                 isFirst = false;

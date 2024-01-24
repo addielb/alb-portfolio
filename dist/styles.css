@@ -22,6 +22,7 @@
   padding: 16px;
   border-radius: 20px;
 }
+
 /* NavBar Styles */
 
 .navBar {
@@ -231,4 +232,20 @@
   position: relative;
   border-radius: 24px;
   background-color: #26360590;
+}
+
+.workExtraTitle {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0px auto;
+}
+
+.workExtraList {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+  overflow: auto;
+  margin: 0px auto;
 }
