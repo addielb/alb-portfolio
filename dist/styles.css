@@ -214,3 +214,12 @@
   border-bottom: 2px solid #263605;
   padding: 20px;
 }
+
+.workRolesContainer {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 40vw;
+  flex-grow: 1;
+}
