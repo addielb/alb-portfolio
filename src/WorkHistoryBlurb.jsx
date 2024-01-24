@@ -36,7 +36,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
             bullets={role.bullets}
           />)
         })}
-        <div className="py-5 float-left mx-auto relative flex-wrap px-5 rounded-3xl bg-dark-green/70 text-lt-yelllow shadow-lg grow">
+        <div className="workStoriesContainer">
           <p className="font-bold italic text-xl mx-auto">Ask me about:</p>
           <ul className="flex flex-row pt-5 overflow-auto mx-auto">
             {askAbout.map((story) => {
