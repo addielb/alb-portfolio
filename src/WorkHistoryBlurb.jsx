@@ -58,8 +58,8 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
         </div>
         <div className="workHalfInfoContainer">
           <div className="workSkillsContainer">
-            <p className="px-5 font-bold italic text-xl pt-2 mx-auto pl-[7%]">Skills:</p>
-            <ul className="pb-2 pt-5 mx-auto flex flex-row justify-between max-w-prose">
+            <p className="workExtraTitle">Skills:</p>
+            <ul className="workExtraList">
               {skills.map((skill) => {
                 if (skill === skills[0]) {
                   isFirst = true;
@@ -68,7 +68,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                 }
                 return (
                 <li
-                  className={`${isFirst ? 'border-x-2' : 'border-r-2'} grow mx-auto px-4 border-lt-yellow`}
+                  className={`${isFirst ? 'workExtraListItemFirst' : ''} workExtraListItem`}
                   key={skill}
                 >
                   {skill}
@@ -77,7 +77,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
               })}
             </ul>
           </div>
-          <div className='float-right flex content-start min-h-[65vh] max-h-[70vh] overflow-x-scroll overflow-y-hidden max-w-3xl snap-mandatory snap-x'>
+          <div className='workCarouselContainer'>
             {pictures.map((pic) => {
               return (
                 <div className="min-w-full object-cover place-content-center justify-center text-center mx-auto relative w-[500px]" id="image-container" key={pic.description}>

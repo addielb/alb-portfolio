@@ -283,3 +283,15 @@
 .workExtraListItemFirst {
   border-left: 2px solid #fff5d8;
 }
+
+.workCarouselContainer {
+  display: flex;
+  align-content: start;
+  min-height: 65vh;
+  max-height: 70vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-width: 786px;
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+  --tw-scroll-snap-strictness: mandatory;
+}
