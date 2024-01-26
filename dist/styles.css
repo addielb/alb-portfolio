@@ -21,6 +21,7 @@
   background-color: #bb7328 !important;
   padding: 16px;
   border-radius: 20px;
+  color: #fff5d8;
 }
 
 /* NavBar Styles */
@@ -344,4 +345,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.artPiecesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

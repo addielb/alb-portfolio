@@ -25,7 +25,7 @@ function Art() {
         </h2>
         {isFiltered && <button className="button" type="button" onClick={clearFilters}>Clear Filters</button>}
       </div>
-      <div className="flex flex-row flex-wrap mx-10 justify-between">
+      <div className="artPiecesContainer">
         {displayPieces.map((piece) => {
           return (
             <div key={piece.title} className="max-w-[40vw] content-center text-center p-4">
