@@ -18,15 +18,12 @@ function Art() {
     setDisplayPieces(arts);
   }
   return (
-    <div className="px-10 pt-2" id="art">
-      <div className="flex flex-col justify-content-center align-items-center px-10">
-        <h2 className="text-center mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl dark:text-white">
+    <div id="art">
+      <div className="artHeaderContainer">
+        <h2 className="sectionTitle">
           Some of My Art
         </h2>
-        <p className="text-center mb-4 text-xl">
-          As an artist by hobby, I want to share a few of my favorite works. My artistic disposition shapes how I approach my code, relationships, and life. Click on the medium below a piece to filter the list to that specific medium.
-        </p>
-        {isFiltered && <button className="text-center align-items-center justify-content-center border-2 border-orange rounded-xl p-4 text-lt-yellow bg-orange m-2 w-52" type="button" onClick={clearFilters}>Clear Filters</button>}
+        {isFiltered && <button className="button" type="button" onClick={clearFilters}>Clear Filters</button>}
       </div>
       <div className="flex flex-row flex-wrap mx-10 justify-between">
         {displayPieces.map((piece) => {
