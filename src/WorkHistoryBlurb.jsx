@@ -28,7 +28,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
     <div className="workBlurbContainer">
       <h2 className="workIndustry">{industry}</h2>
       <div className="workInfoContainer">
-        <div className="workRolesContainer">
+        <div className="workHalfInfoContainer">
           {roles.map((role) => {
             return (<WorkHistoryRole
               key={role.business}
@@ -56,8 +56,8 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col float-right mx-auto relative flex-wrap shrink px-5 pt-5">
-          <div className="rounded-3xl bg-dark-green/70 text-lt-yellow shadow-lg py-2">
+        <div className="workHalfInfoContainer">
+          <div className="workSkillsContainer">
             <p className="px-5 font-bold italic text-xl pt-2 mx-auto pl-[7%]">Skills:</p>
             <ul className="pb-2 pt-5 mx-auto flex flex-row justify-between max-w-prose">
               {skills.map((skill) => {

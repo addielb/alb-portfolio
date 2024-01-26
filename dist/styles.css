@@ -219,9 +219,10 @@
 .workInfoContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.workRolesContainer {
+.workHalfInfoContainer {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -247,7 +248,7 @@
   padding: 4px;
 }
 
-.workStoriesContainer {
+.workStoriesContainer, .workSkillsContainer {
   padding: 20px;
   float: left;
   margin: 20px 0px;
