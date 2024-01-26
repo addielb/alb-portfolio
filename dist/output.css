@@ -815,20 +815,12 @@ video {
   height: 0.5rem;
 }
 
-.h-2\/6 {
-  height: 33.333333%;
-}
-
 .h-4 {
   height: 1rem;
 }
 
 .h-96 {
   height: 24rem;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
 }
 
 .h-auto {
@@ -854,10 +846,6 @@ video {
 
 .max-h-96 {
   max-height: 24rem;
-}
-
-.max-h-\[370px\] {
-  max-height: 370px;
 }
 
 .max-h-\[50vh\] {
@@ -971,10 +959,6 @@ video {
 
 .max-w-\[40vw\] {
   max-width: 40vw;
-}
-
-.max-w-\[600px\] {
-  max-width: 600px;
 }
 
 .max-w-fit {
