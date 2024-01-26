@@ -80,7 +80,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
           <div className='workCarouselContainer'>
             {pictures.map((pic) => {
               return (
-                <div className="min-w-full object-cover place-content-center justify-center text-center mx-auto relative w-[500px]" id="image-container" key={pic.description}>
+                <div className="workCarouselImgContainer" id="image-container" key={pic.description}>
                   <img
                     onMouseEnter={toggleDescriptionOn}
                     onMouseLeave={toggleDescriptionOff}

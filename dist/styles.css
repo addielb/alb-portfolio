@@ -284,6 +284,8 @@
   border-left: 2px solid #fff5d8;
 }
 
+/* Work Hx Carousel */
+
 .workCarouselContainer {
   display: flex;
   align-content: start;
@@ -294,4 +296,14 @@
   max-width: 786px;
   scroll-snap-type: x var(--tw-scroll-snap-strictness);
   --tw-scroll-snap-strictness: mandatory;
+}
+
+.workCarouselImgContainer {
+  min-width: 100%;
+  object-fit: cover;
+  place-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
 }
