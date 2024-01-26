@@ -4,8 +4,8 @@ import { welcomeMessages } from './information/Welcome.js';
 function Welcome() {
   // console.log(welcomeFile);
   return (
-    <div className="mx-10 p-10 content-center grid place-items-center text-dark-green">
-      <h2 className="inline-block align-top motion-safe:animate-bounce text-center mb-4 lg:text-7xl font-extrabold leading-none tracking-tight text-dark-green md:text-2xl sm:text-2xl dark:text-white pt-5">
+    <div className="welcomeContainer">
+      <h2 className="welcomeTitle">
         Welcome
       </h2>
       <div className="max-w-7xl sm:max-w-max gap-12 flex flex-col">
