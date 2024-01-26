@@ -28,19 +28,19 @@ function Art() {
       <div className="artPiecesContainer">
         {displayPieces.map((piece) => {
           return (
-            <div key={piece.title} className="max-w-[40vw] content-center text-center p-4">
-              <div className="max-h-[60vh] content-center place-content-center justify-center align-items-center flex">
-                <img className="object-cover max-h-[60vh]" src={piece.path}/>
+            <div key={piece.title} className="artPieceContainer">
+              <div className="artImgContainer">
+                <img className="artImg" src={piece.path}/>
               </div>
-              <h4 className="text-2xl pt-2 pb-1">{piece.title}</h4>
-              <p className="p-1">{piece.dates}</p>
-              <p className="p-1">{piece.description}</p>
+              <h4 className="artTitle">{piece.title}</h4>
+              <p className="artInfo">{piece.dates}</p>
+              <p className="artInfo">{piece.description}</p>
               {piece.medium.map((medium) => {
                 return (
                   <button
                     key={key++}
                     type="button"
-                    className="float-center border-2 border-orange rounded-xl p-4 text-lt-yellow bg-orange m-2"
+                    className="button artButton"
                     onClick={(e) => {
                       handleMediumFilter(e.target.firstChild.data);
                     }}

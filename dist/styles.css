@@ -352,4 +352,39 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 32px;
+}
+
+.artPieceContainer {
+  max-width: 40vw;
+  align-content: center;
+  text-align: center;
+}
+
+.artImgContainer {
+  max-height: 60vh;
+  align-content: center;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.artImg {
+  object-fit: cover;
+  max-height: 60vh;
+}
+
+.artTitle {
+  font-size: 24px;
+  line-height: 32px;
+  padding: 8px;
+}
+
+.artInfo {
+  padding: 4px;
+}
+
+.artButton {
+  margin: 8px;
 }
