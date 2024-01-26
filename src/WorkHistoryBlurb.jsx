@@ -84,7 +84,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                   <img
                     onMouseEnter={toggleDescriptionOn}
                     onMouseLeave={toggleDescriptionOff}
-                    className="object-cover max-h-[50vh] px-5 snap-center py-5 mx-auto hover:bg-blend-multiply rounded-3xl"
+                    className="workCarouselImg"
                     id="image"
                     src={pic.path}
                     alt={pic.description}

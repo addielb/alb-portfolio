@@ -307,3 +307,11 @@
   margin: 0px auto;
   position: relative;
 }
+
+.workCarouselImg {
+  object-fit: cover;
+  max-height: 50vh;
+  padding: 20px;
+  scroll-snap-align: center;
+  margin: 0px auto;
+}
