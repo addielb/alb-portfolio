@@ -11,7 +11,7 @@
   width: 100%;
   font-size: 72px;
   line-height: 1;
-  margin: 32px 0px;
+  margin: 80px 0px 40px;
   border-top: 4px solid #263605;
   font-weight: bold;
 }
@@ -101,7 +101,7 @@
   font-size: 72px;
   line-height: 1;
   font-weight: 800;
-  padding: 20px;
+  padding: 40px 0px 20px;
   animation: bounce 1s infinite;
 
   @keyframes bounce {
@@ -114,6 +114,32 @@
       animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
     }
   }
+}
+
+.welcomeMsgContainer {
+  max-width: 1280px;
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcomeMsg {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.welcomeImgContainer {
+  position: relative;
+  mix-blend-mode: normal;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.welcomeImg {
+  border-radius: 24px;
+  transform: scale(1);
 }
 
 /* About Styles */
