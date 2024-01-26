@@ -90,7 +90,7 @@ function WorkHistoryBlurb({ industry, roles, skills, pictures, askAbout }) {
                     alt={pic.description}
                   />
                 <div className="workCarouselDescriptionContainer">
-                    <h4 className="font-bold text-xl">{pic.location}</h4>
+                    <h4 className="workCarouselDescriptionLocation">{pic.location}</h4>
                     <p>{pic.description}</p>
                   </div>
                 </div>
